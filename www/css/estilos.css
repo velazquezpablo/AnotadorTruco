@@ -1,0 +1,196 @@
+/* .seleccionado {
+    background-color: rgb(0, 255, 55);
+    color: black;
+} */
+
+
+.green{
+    background-image: url(../img/fondo.jpg);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.juego{
+    display:flex;
+    width:420px;
+    flex-wrap: wrap;
+}
+h2{
+    font-size:20px;
+    color: white;
+    width: 120px;
+    padding:0px 15px;
+    margin: 5px 10px;
+}
+.eq {
+    height: 40px;
+    width: 240px;
+    /* background-color: green; */
+    font: rgb(14, 14, 14);
+    border-color: white;
+    border-radius: 6px;
+    color: rgb(19, 18, 18);
+    font-size: 20px;
+    border-width:2px;
+}
+ .eq::placeholder{
+     color:rgb(7, 7, 7);
+     font-size: 20px;
+
+ }
+
+ .contIn{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+ }
+ .contBts{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .contEq{
+    margin-top: 50%;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     flex-wrap: nowrap;
+     flex-direction: column;
+     align-items: center;
+ }
+ .bts{
+     background-color: rgb(255, 255, 255);
+     color:rgb(8, 8, 8);
+     border-radius:5px;
+     height: 40px;
+     width:80px;
+     font-size:14px;
+ }
+
+.seleccionado{
+    background-color: rgb(106, 9, 97);
+    color:rgb(245, 245, 245);
+    border-radius:5px;
+    height: 40px;
+    width:80px;
+    font-size:14px;
+ }
+
+ .botI {
+     height: 40px;
+     width:180px;
+     background-color: rgb(106, 9, 97);
+     color: white;
+     font-size: 20px;
+ }
+ 
+ .visible{
+     display: block;
+     visibility: visible;
+ }
+
+ .oculto{
+     display: none;
+     visibility: hidden;
+ }
+
+ .eq1{
+     display:flex;
+     flex-wrap:wrap;
+ }
+
+.recuadroPuntos{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    width: 206px;
+    height:420px;
+    border: 1px solid white;
+    padding: 1px;
+}
+
+ 
+ .btsMas{
+    margin: 10px;
+     background-color: rgb(106, 9, 97);
+     border-color: white;
+     color:white;
+     font-size: 30px;
+     width: 40px;
+     height: 40px;
+     min-width: 40px;
+     min-height: 40px;
+ }
+ 
+ .dis2{
+     display: flex;
+     flex-direction: row-reverse;
+     width:200px;
+     padding:5px;
+ }
+
+ .dis1{
+     display: flex;
+     width:200px;
+     padding:5px;
+ }
+
+ .dis22{
+    display: flex;
+    flex-direction: row-reverse;
+    width:150px;
+    padding:5px;
+}
+
+.dis21{
+    display: flex;
+    width:150px;
+    padding:5px;
+}
+
+.disIn{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width:100px;
+}
+
+p{
+    margin:0px;
+    color:white;
+}
+
+.botFin{
+    margin: auto;
+    width:60px;
+    height: 30px;
+    background-color: rgb(106, 9, 97);
+    border-color: white;
+    color:white;
+    font-size: 25px;
+}
+
+h1{
+    margin:0px 45px;
+    color: white;
+}
+
+.img{
+    width: 35%;
+    height: 35%;
+}
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+p{
+    margin: auto;
+    border-color: black;
+    text-shadow: black 1px;
+    font-size: 24px;
+}

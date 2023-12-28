@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Anotador de Truco</title>
+        <link href="css/estilos.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</head>
+    
+	<body class="green">
+        <div class="visible" id="pant1">
+            <div class="contEq">
+                <br/>
+                <p>Nombre equipo 1</p>
+                <br>
+                <input type="text" placeholder="Equipo 1" id="eq1" class="eq" value="Equipo 1">
+                <br/><br/>
+                <p>Nombre equipo 2</p>
+                <br>
+                <input type="text" placeholder="Equipo 2" id="eq2" class="eq" value="Equipo 2" >
+                <br/><br/>
+            </div><br/>
+            <div class="contBts">
+                <br/>
+                <input type="button" id="a24" value="A 24" class="bts">
+                <input type="button" id="a30" value="A 30" class="bts seleccionado">
+                <br/>
+            </div><br/>
+            <div class="contIn">
+                <input type="button" id="inicio" value="iniciar" class="botI">
+            </div>
+        </div>   
+
+        <div class="oculto" id="pant2">
+            <div class="juego">
+	
+                <div class="dis1">
+                    <input type="button" id="s1" value="+" class="btsMas">
+                    <h2 id="ne1"></h2>
+                </div>
+                <div class="dis2">
+                    <input type="button" id="s2" value="+" class="btsMas">
+                    <h2 id="ne2"></h2>
+                </div>
+                
+                <div class="recuadroPuntos">
+                    <!-- arriba 1 -->
+                    <img class="img" id="p11" src="img/0.png" />
+                    <img class="img" id="p12" src="img/0.png" />
+                    <img class="img" id="p13" src="img/0.png" />
+                </div>
+                <div class="recuadroPuntos">
+                    <!-- arriba 2 -->
+                    <img class="img" id="p21" src="img/0.png" />
+                    <img class="img" id="p22" src="img/0.png" />
+                    <img class="img" id="p23" src="img/0.png" />
+                </div>
+                <div class="recuadroPuntos">
+                    <!-- abajo 1 -->
+                    <img class="img" id="p14" src="img/0.png" />
+                    <img class="img" id="p15" src="img/0.png" />
+                    <img class="img" id="p16" src="img/0.png" />
+                </div>
+                <div class="recuadroPuntos">
+                    <!-- abajo 2 -->
+                    <img class="img" id="p24" src="img/0.png" />
+                    <img class="img" id="p25" src="img/0.png" />
+                    <img class="img" id="p26" src="img/0.png" />
+                </div>
+
+                <div class="dis21">
+                    <input type="button" id="r1" value="-" class="btsMas">
+                    <h1 id="p1"></h1>
+                </div>
+                <div class="disIn">
+                    <p id="max"></p>
+                    <input type="button" id="fin" value="Fin" class="botFin">   
+                </div>
+                
+                <div class="dis22">
+                    <input type="button" id="r2" value="-"class="btsMas">
+                    <h1 id="p2"></h1>
+                </div>
+            </div>
+        </div> 
+	</body>	
+</html>
